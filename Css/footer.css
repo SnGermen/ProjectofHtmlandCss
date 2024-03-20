@@ -1,5 +1,5 @@
 .footer{
-color: var(--color-footer);
+    background: rgb(16, 17, 20);
 }
 
 .footer__wrapper{
@@ -12,11 +12,13 @@ color: var(--color-footer);
 .footer__social{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 36px;
+    gap: 24px;
 }
 
 .footer__menu{
     display: flex;
-    gap: 80px;
+    gap: 24px 80px;
     margin-bottom: 48px;
 }
 
@@ -49,4 +51,20 @@ color: var(--color-footer);
 
 .foote__cpwr{
     color:var(--color-link-hover);
+}
+
+@media(max-width: 860px){
+    .footer__menu{
+       flex-direction: column;
+       margin-bottom: 24px;
+    }
+}
+
+
+
+@media(max-width: 640px){
+    .footer__social{
+       flex-direction: column;
+    
+    }
 }

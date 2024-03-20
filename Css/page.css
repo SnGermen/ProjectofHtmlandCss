@@ -1,0 +1,101 @@
+.headling{
+    max-width: var(--layout-width);
+    margin: 80px;
+    padding:0px 0px 50px ;
+    margin-bottom: 200px;
+    height: 1300px;
+}
+
+.headling__text{
+    padding-bottom: 24px;
+    color: var(--color-text);
+}
+
+
+
+
+.headling__text-purple{
+    color: rgb(228, 122, 213);
+}
+
+.headling__text-big{
+    font-size: 46px;
+    font-weight: 400px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.headlibg-icons{
+    display: flex;
+    gap: 24px;
+    margin-block-end: 50px;
+}
+
+/* articles */
+
+.headling__articles{
+    border-radius: 10px;
+    background: rgb(30, 31, 41);
+    position: relative;
+    width: auto;
+    height:    auto;
+    padding: 25px;
+
+    margin: 30px;
+
+}
+
+.headling__articles-block-img{
+    margin-right: 15px;
+}
+.headling__button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+.headling__button-style{  
+border: 1px solid rgb(77, 80, 100);
+border-radius: 10px;
+background: none;
+color: var(--color-text);
+width: 158px;
+height: 54px;
+			
+}
+
+.headling__text-first{
+ font-size: 24px;
+ margin: 10px;
+
+}
+
+
+.headling__button :hover{
+  background-color: rgb(46, 45, 61); 
+}
+
+
+
+
+.headling__publication-style{
+    
+    background: none;
+    color: var(--color-text);
+    box-sizing: border-box;
+    border: 1px solid rgb(77, 80, 100);
+    border-radius: 10px;
+    width: 158px;
+    height: 49px;
+    font-size: 15px;
+}
+
+
+    .headling__publication-style {
+        display: block; /* Делаем кнопку блочным элементом */
+        margin: 0 auto; /* Автоматический отступ слева и справа делает элемент по центру */
+       
+}
+.headling__publication{
+padding: 16px 1px 16px 32px;
+}
