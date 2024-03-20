@@ -8,11 +8,16 @@
     --color-link-hover:#AFB2BF;
     --color-stoke:#4D5064;
     --gradient: rgba(215, 123, 230, 1.00);
+    --color-footer: #101114;
     --space-10: 10;
     --layout-width:1172px;
     --border-10: 10px;
 }
 
+/* ДЛя - social-icons__icon */
+*{
+    box-sizing: border-box;
+}
 
 html {
     --color-primary: green;

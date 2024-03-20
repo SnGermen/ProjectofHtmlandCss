@@ -52,6 +52,10 @@ display: block;
     .header__logo{
         max-width: 174px;
     }
+
+    .header__wrapper{
+        padding: 30px 24px;
+    }
 }
 
 
@@ -96,6 +100,8 @@ display: block;
     .menu{
         display: none;
     }
+
 }
+
 
 
