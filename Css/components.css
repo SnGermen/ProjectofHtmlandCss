@@ -44,9 +44,14 @@
 }
 
 
-@media(max-width: 860px){
-    .post{
-        padding: 12px 32px;
+@media(max-width: 200px){
+    .headling__articles{
+        flex-direction: column;
+        
+    }
+
+    .headling{
+        background-size: 3000px;
     }
     }
     

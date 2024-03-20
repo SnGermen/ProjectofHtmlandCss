@@ -48,11 +48,10 @@
 .headling__articles-block-img{
     margin-right: 15px;
 }
-.headling__button{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-
+.headling__button {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
 }
 .headling__button-style{  
 border: 1px solid rgb(77, 80, 100);
