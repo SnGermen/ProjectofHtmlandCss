@@ -1,161 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Школа разработки  Purple School</title>
-    <link rel="stylesheet" href="Css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Школа разработки Purple School</title>
+  <link rel="stylesheet" href="Css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="main.js"></script>
 </head>
+
 <body>
-   <header class="header">
+  <header class="header">
     <div class="header__wrapper">
-    <a href="#"> <img class="header__logo" src="/img/logo.svg" alt=""></a>
-    <nav>
+      <a href="#"> <img class="header__logo" src="/img/logo.svg" alt=""></a>
+      <nav>
         <ul class="menu">
           <li class="menu__items menu__itemsActive"><a href="#"> Курсы</a></li>
-          <li class="menu__items"><a href="#"> О Школе</a></li>
+          <li class="menu__items open__popUp"><a href="#"> О Школе</a></li>
           <li class="menu__items"><a href="#">Блок</a></li>
           <li class="menu__items"><a href="#">База знаний</a></li>
         </ul>
-    </nav>
-    <a class="header__login" href="#" aria-label="Вход в личный кабинет">
-    <div>
-        <img src="/img/user.svg" alt="">
-        <div class="header_login">Вход</div>
-   </a>
-  <button class="header__mobile-menu-buttun">
-      <img src="img/menu.svg" alt="мобильное меню" aria-expanded="false"
-      aria-haspopup="true"
-  >
-  </button> 
+      </nav>
+      <a class="header__login" href="#" aria-label="Вход в личный кабинет">
+        <div>
+          <img src="/img/user.svg" alt="">
+          <div class="header_login">Вход</div>
+      </a>
+      <button class="header__mobile-menu-buttun">
+        <img src="img/menu.svg" alt="мобильное меню" aria-expanded="false" aria-haspopup="true">
+      </button>
 
-</div>
-</div>
-</header> 
- <section class="section section-light">
- <div class="hero">
-    <div class="hero__left">
-    <h1 class="hero__h1">Доступные курсы по <br>
-       <span class="hero__h1_gradient">Разработке и DevOps</span></h1>
- 
- <div class="hero__buttons">
- <button class='button button_primery'>Выбрать курс</button>
- <button class='button button_ghost'>О курсе</button>
-</div>
-</div>
- <img class="hero__video" src="img/video.png" alt="">
-</div>
- </section>
-
-<section >
-  <div class="headling">
-   
-    <div class="headling__text headling__text-purple">Блог и социальные сети</div>
-    <div class="headling__text headling__text-big">Полезные материалы</div>
-    <div class="headling__text headling__text-small">Каждую неделю мы публикуем новости, обновления, а так же дополнительные полезные <br> материалы в социальных сетях:</div>
-      
-    <div class="headlibg-icons">
-      <a href="#" class="social-icons__icon"> <img src="img/tg.svg" alt="Telegram"></a>
-      <a href="#" class="social-icons__icon"> <img src="img/youtube.svg" alt="Youtub"></a>
     </div>
- 
-    <div class="headling__articles">
-      <div class="headling__content">
-        <div class="headling__articles-block">
-          <span class="headling__articles-block-ce" ><img  src="img/calendar.svg" alt="дата"> 06 мая 2023</span>
-          <span class="headling__articles-block-ce" ><img  src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
+    </div>
+  </header>
+  <section class="section section-light">
+    <div class="hero">
+      <div class="hero__left">
+        <h1 class="hero__h1">Доступные курсы по <br>
+          <span class="hero__h1_gradient">Разработке и DevOps</span>
+        </h1>
+
+        <div class="hero__buttons">
+          <button class='button button_primery'>Выбрать курс</button>
+          <button class='button button_ghost'>О курсе</button>
         </div>
-        <div class="headling__text">
-          <div class="headling__text-first"> Критика в работе – ваш друг, но не всегда</div> 
-          Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не готов слушать аргументы. Тут варианта два: или обратная связь дана некорректно, или человек не воспринимает критику. В этом посте я хочу сосредоточиться на том, как работать с критикой.
-        </div> 
       </div>
-      
-      <a href="#" class="headling__button">Читать</a>
+      <img class="hero__video" src="img/video.png" alt="">
     </div>
-    
-    <div class="headling__articles">
-      <div class="headling__content">
-        <div class="headling__articles-block">
-          <span class="headling__articles-block-ce" ><img  src="img/calendar.svg" alt="дата"> 06 мая 2023</span>
-          <span class="headling__articles-block-ce" ><img  src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
+
+  </section>
+
+  <div class="popUp">
+    <div class='popUp__block'>
+      <form class='popUp__form'>
+        <h1 class='popUp__form-h1'>Свяжитесь со мной</h1>
+
+        <div class='popUp__form-group'>
+          <input class='popUp__form-group-input' type="text" placeholder="Email">
+
         </div>
-        <div class="headling__text">
-          <div class="headling__text-first"> Критика в работе – ваш друг, но не всегда</div> 
-          Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не готов слушать аргументы. Тут варианта два: или обратная связь дана некорректно, или человек не воспринимает критику. В этом посте я хочу сосредоточиться на том, как работать с критикой.
-        </div> 
-      </div>
-      
-      <a href="#" class="headling__button">Читать</a>
-    </div>
 
-    <div class="headling__articles">
-      <div class="headling__content">
-        <div class="headling__articles-block">
-          <span class="headling__articles-block-ce" ><img  src="img/calendar.svg" alt="дата"> 06 мая 2023</span>
-          <span class="headling__articles-block-ce" ><img  src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
+        <div class='popUp__form-group'>
+
+          <input class='popUp__form-group-input' type="text" placeholder="Telegram">
+
         </div>
-        <div class="headling__text">
-          <div class="headling__text-first"> Критика в работе – ваш друг, но не всегда</div> 
-          Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не готов слушать аргументы. Тут варианта два: или обратная связь дана некорректно, или человек не воспринимает критику. В этом посте я хочу сосредоточиться на том, как работать с критикой.
-        </div> 
-      </div>
-      
-      <a href="#" class="headling__button">Читать</a>
+
+        <div class='popUp__form-group'>
+          <input class='popUp__form-group-input' type="text" placeholder="Tema">
+
+        </div>
+        <div class='popUp__form-button'>
+          <button class='popUp__form-button-styl'>Отправить</button>
+        </div>
+      </form>
+
+
     </div>
+  </div>
+  <section>
+    <div class="headling">
 
+      <div class="headling__text headling__text-purple">Блог и социальные сети</div>
+      <div class="headling__text headling__text-big">Полезные материалы</div>
+      <div class="headling__text headling__text-small">Каждую неделю мы публикуем новости, обновления, а так же
+        дополнительные полезные <br> материалы в социальных сетях:</div>
 
-    <div class="headling__publication"></div><button class="headling__publication-style">Все публикации</button>
-  
-</section>
-
- <footer class="footer">  
-  <div class="footer__wrapper">
-    <div class="footer__social"> 
-      <a href="#"> <div><img class="footer__logo" src="/img/logo.svg" alt="Purple School"></div></a>
-      <div class="social-icons">
+      <div class="headlibg-icons">
         <a href="#" class="social-icons__icon"> <img src="img/tg.svg" alt="Telegram"></a>
         <a href="#" class="social-icons__icon"> <img src="img/youtube.svg" alt="Youtub"></a>
       </div>
-    </div> 
-    <div class="footer__menu">
-      <nav>
-        <div class="footer__menu-header">Меню
-        <ul class="menu-small">
-          <li class="menu-small__item"><a href="#"> Курсы</a></li>
-          <li class="menu-small__item"><a href="#"> О Школе</a></li>
-          <li class="menu-small__item"><a href="#">Блок</a></li>
-          <li class="menu-small__item"><a href="#">База знаний</a></li>
-        </div></ul>
-      </nav>
-      <div>
-        
-        <div class="footer__menu-header">Документы
-        <ul class="menu-small">
-          <li class="menu-small__item"><a href="#"> Договор Оферта</a></li>
-          <li class="menu-small__item"><a href="#"> Политика конфиденциальности</a></li>
-        </ul>
-      </div>
-    </div>
-      <div>
-        <div class="footer__menu-header">Реквезиты
-        <ul class="menu-small">
-          
-          <li class="menu-small__item"> ИП Ларичев Антон Андреевич</li>
-          <li class="menu-small__item"> ИНН 773373765379</li>
-          <li class="menu-small__item"><a href="contact@purpleschool.ua">contact@purpleschool.ua</a></li>
-        </ul>
-      </div>
-    </div>
-       
-    </div> 
-   <div class="foote__cpwr">PurpleSchool © 2020 - 2023 Все права защищены  </div>
-  </div>
 
-</footer>
+      <div class="headling__articles">
+        <div class="headling__content">
+          <div class="headling__articles-block">
+            <span class="headling__articles-block-ce"><img src="img/calendar.svg" alt="дата"> 06 мая 2023</span>
+            <span class="headling__articles-block-ce"><img src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
+          </div>
+          <div class="headling__text">
+            <div class="headling__text-first"> Критика в работе – ваш друг, но не всегда</div>
+            Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в
+            штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
+            готов
+            слушать аргументы. Тут варианта два: или обратная связь дана некорректно, или человек не воспринимает
+            критику. В этом посте я хочу сосредоточиться на том, как работать с критикой.
+          </div>
+        </div>
 
-</body>
+        <a href="#" class="headling__button">Читать</a>
+      </div>
+
+      <div class="headling__articles">
+        <div class="headling__content">
+          <div class="headling__articles-block">
+            <span class="headling__articles-block-ce"><img src="img/calendar.svg" alt="дата"> 06 мая 2023</span>
+            <span class="headling__articles-block-ce"><img src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
+          </div>
+          <div class="headling__text">
+            <div class="headling__text-first"> Критика в работе – ваш друг, но не всегда</div>
+            Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в
+            штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
+            готов
+            слушать аргументы. Тут варианта два: или обратная связь дана некорректно, или человек не воспринимает
+            критику. В этом посте я хочу сосредоточиться на том, как работать с критикой.
+          </div>
+        </div>
+
+        <a href="#" class="headling__button">Читать</a>
+      </div>
+
+      <div class="headling__articles">
+        <div class="headling__content">
+          <div class="headling__articles-block">
+            <span class="headling__articles-block-ce"><img src="img/calendar.svg" alt="дата"> 06 мая 2023</span>
+            <span class="headling__articles-block-ce"><img src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
+          </div>
+          <div class="headling__text">
+            <div class="headling__text-first"> Критика в работе – ваш друг, но не всегда</div>
+            Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в
+            штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
+            готов
+            слушать аргументы. Тут варианта два: или обратная связь дана некорректно, или человек не воспринимает
+            критику. В этом посте я хочу сосредоточиться на том, как работать с критикой.
+          </div>
+        </div>
+
+        <a href="#" class="headling__button">Читать</a>
+      </div>
+
+
+      <div class="headling__publication"></div><button class="headling__publication-style">Все публикации</button>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__social">
+        <a href="#">
+          <div><img class="footer__logo" src="/img/logo.svg" alt="Purple School"></div>
+        </a>
+        <div class="social-icons">
+          <a href="#" class="social-icons__icon"> <img src="img/tg.svg" alt="Telegram"></a>
+          <a href="#" class="social-icons__icon"> <img src="img/youtube.svg" alt="Youtub"></a>
+        </div>
+      </div>
+      <div class="footer__menu">
+        <nav>
+          <div class="footer__menu-header">Меню
+            <ul class="menu-small">
+              <li class="menu-small__item"><a href="#"> Курсы</a></li>
+              <li class="menu-small__item"><a href="#"> О Школе</a></li>
+              <li class="menu-small__item"><a href="#">Блок</a></li>
+              <li class="menu-small__item"><a href="#">База знаний</a></li>
+          </div>
+          </ul>
+        </nav>
+        <div>
+
+          <div class="footer__menu-header">Документы
+            <ul class="menu-small">
+              <li class="menu-small__item"><a href="#"> Договор Оферта</a></li>
+              <li class="menu-small__item"><a href="#"> Политика конфиденциальности</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="footer__menu-header">Реквезиты
+            <ul class="menu-small">
+
+              <li class="menu-small__item"> ИП Ларичев Антон Андреевич</li>
+              <li class="menu-small__item"> ИНН 773373765379</li>
+              <li class="menu-small__item"><a href="contact@purpleschool.ua">contact@purpleschool.ua</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="foote__cpwr">PurpleSchool © 2020 - 2023 Все права защищены </div>
+    </div>
+
+  </footer>
+
+
+
 </html>
