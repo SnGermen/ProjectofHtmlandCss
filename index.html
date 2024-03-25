@@ -11,7 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
 </head>
 
 <body>
@@ -55,34 +55,52 @@
 
   </section>
 
+
+  <div class="catalog">
+
+  </div>
+
   <div class="popUp">
     <div class='popUp__block'>
       <form class='popUp__form'>
         <h1 class='popUp__form-h1'>Свяжитесь со мной</h1>
 
         <div class='popUp__form-group'>
+          <img src="img/topic.svg" alt="" class="popUp__form-group-img">
           <input class='popUp__form-group-input' type="text" placeholder="Email">
 
         </div>
 
         <div class='popUp__form-group'>
 
+          <img src="img/Vector(1).png" alt="" class="popUp__form-group-img">
           <input class='popUp__form-group-input' type="text" placeholder="Telegram">
 
         </div>
 
         <div class='popUp__form-group'>
-          <input class='popUp__form-group-input' type="text" placeholder="Tema">
+          <img src="img/message.svg" alt="" class="popUp__form-group-img">
+          <select class='popUp__form-group-input' type="text" placeholder="Tema">
+            <option value="">Tema</option>
+            <option value="">3D modeling</option>
+            <option value="">Make games</option>
+            <option value="">frontend</option>
+          </select>
 
         </div>
-        <div class='popUp__form-button'>
-          <button class='popUp__form-button-styl'>Отправить</button>
-        </div>
+        <textarea class='popUp__form-group-input popUp-largeText'> Коментарий</textarea>
+        <button class='popUp__form-button'>Отправить</button>
+
       </form>
 
 
     </div>
   </div>
+
+
+
+
+
   <section>
     <div class="headling">
 

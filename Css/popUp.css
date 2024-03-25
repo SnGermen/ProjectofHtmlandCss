@@ -2,8 +2,8 @@
   color: var(--color-text);
   border-radius: 10px;
   background: rgb(30, 31, 41);
-  width: 700px;
-  height: 300px;
+  width: 800px;
+  height: 460px;
   margin: 0 auto;
   position: fixed;
   top: 50%;
@@ -15,51 +15,69 @@
 }
 
 .popUp__form{
-  width: 400px;
+  width: 90%;
   padding: 32px;
   border-radius: 10px;
-
+ 
+  margin-left: auto; /* Добавлено для выравнивания вправо */
+  margin-right: auto;
 }
 
 .popUp__form-group{
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 15px;
 }
 
-
-.popUp__form-group-input{
+.popUp__form-group-input {
   width: 100%;
-  padding: 0 0 10px 0;
+   height: 40px;
   border: none;
   border-radius: 5px;
   outline: none;
   background: rgb(46, 45, 61) url(mg/tg.svg);
   transition: 0.3s;
   color: rgb(175, 178, 191);
-  
-
-  
+  padding-left: 40px;
+  line-height: 1.5;
 }
 
-
-.popUp__form-button{
+.popUp__form-h1{
+  
   display: flex;
   justify-content: center;
-  border-radius: 5px;
-
-  background: rgb(108, 56, 204);
- 
 }
 
-.popUp__form-button-styl{
-  color:  var(--color-text);
-   border: none; 
-  outline: none;
-    background: rgb(108, 56, 204);
+.popUp-largeText{
+  width: 100%;
+  height: 100px;
+  resize: none; 
+  padding-left: 10px;
+}
 
+.popUp__form-button {
+  width: 100%;
+  height: 28px;
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 5px;
+  color: var(--color-text);
+  border: none;
+  outline: none;
+  background: rgb(108, 56, 204);
+}
+
+
+.popUp__form-group-img {
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50%;
 }
 
 .popUp{
-    display: none; 
-
+  display: none; 
 }
+
