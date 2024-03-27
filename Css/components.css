@@ -1,4 +1,4 @@
-.section-light {
+.section--light {
   background-color: var(--color-bg-medium);
 }
 
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 64px) {
-  .hero__buttons {
+  .section__buttons {
     padding: 12px 32px;
   }
 }

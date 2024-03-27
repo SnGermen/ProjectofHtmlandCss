@@ -1,7 +1,7 @@
 (() => {
   let popUp = document.querySelector('.popUp')
 
-  document.querySelector('.button_primery').onclick = function () {
+  document.querySelector('.button--primary').onclick = function () {
     popUp.style.display = 'block'
   }
 
