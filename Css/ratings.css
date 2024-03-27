@@ -1,6 +1,8 @@
 .ratings {
   width: 100%;
   padding: 35px 20px;
+  /* Gray dark */
+background: rgb(30, 31, 41);
 }
 .ratings__container {
   max-width: 1220px;
