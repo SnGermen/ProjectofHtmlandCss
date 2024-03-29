@@ -1,6 +1,6 @@
 .section__hero{
     max-width: var(--layout-width);
-    margin: 0 auto;
+    margin-left: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;

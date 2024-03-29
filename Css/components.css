@@ -19,6 +19,8 @@
 .social-icons {
   display: flex;
   gap: 24px;
+  margin-left: 850px;
+  align-items: center;
 }
 
 .social-icons__icon {
