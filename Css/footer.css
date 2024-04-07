@@ -24,7 +24,7 @@
     margin-bottom: 48px;
 }
 
-.footer__menu-header{
+.footer__menuHeader{
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
@@ -32,7 +32,7 @@
     color: rgb(228, 122, 213);
 }
 
-.menu-small__item  a{
+.footer__item a{
     color: var(--color-text);
     list-style: none;
     
@@ -40,7 +40,7 @@
 }
 
 
-.menu-small__item{
+.footer__item{
     color: var(--color-link-hover);
     list-style: none;
     padding: 0;
@@ -50,18 +50,18 @@
 
 }
 
-.footer__menu-header,
-.menu-small {
+.footer__menuHeader,
+.footer__small {
     margin: 0;
     padding: 0;
 }
 
-.footer__menu-header {
+.footer__menuHeader {
     display: inline-block;
     vertical-align: top; /* Выравнивание по верхнему краю */
 }
 
-.menu-small__item a:hover{
+.footer__item a:hover{
     color: var(--color-link-hover);
 }
 

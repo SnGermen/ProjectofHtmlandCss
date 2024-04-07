@@ -23,12 +23,12 @@
   margin-right: auto;
 }
 
-.popUp__form-group{
+.popUp__group{
   position: relative;
   margin-bottom: 15px;
 }
 
-.popUp__form-group-input {
+.popUp__input {
   width: 100%;
    height: 40px;
   border: none;
@@ -41,20 +41,20 @@
   line-height: 1.5;
 }
 
-.popUp__form-h1{
+.popUp__h1{
   
   display: flex;
   justify-content: center;
 }
 
-.popUp-largeText{
+.popUp__input_largeText{
   width: 100%;
   height: 100px;
   resize: none; 
   padding-left: 10px;
 }
 
-.popUp__form-button {
+.popUp__button {
   width: 100%;
   height: 28px;
   margin-top: 17px;
@@ -69,7 +69,7 @@
 }
 
 
-.popUp__form-group-img {
+.popUp__img {
   position: absolute;
   left: 10px; 
   top: 50%;
