@@ -86,14 +86,14 @@ display: block;
 
 
 
-.menu__itemsActive:hover{
+.menu__items_active:hover{
   border: 1px solid rgb(77, 80, 100);
 
   border-radius: 8px;
 }
 
 
-/* .menu__items-gray{
+/* .menu__items_gray{
     color: rgba(175, 178, 191, 1.00);
 } */
 

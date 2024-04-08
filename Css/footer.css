@@ -24,19 +24,12 @@
     margin-bottom: 48px;
 }
 
-.footer__menuHeader{
+.footer__header{
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
     margin: 18px;
     color: rgb(228, 122, 213);
-}
-
-.footer__item a{
-    color: var(--color-text);
-    list-style: none;
-    
-    
 }
 
 
@@ -50,13 +43,20 @@
 
 }
 
-.footer__menuHeader,
+.footer__item_link{
+    color: var(--color-text);
+    list-style: none;
+    
+    
+}
+
+.footer__header,
 .footer__small {
     margin: 0;
     padding: 0;
 }
 
-.footer__menuHeader {
+.footer__header {
     display: inline-block;
     vertical-align: top; /* Выравнивание по верхнему краю */
 }

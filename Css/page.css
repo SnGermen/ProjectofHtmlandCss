@@ -15,12 +15,12 @@
   letter-spacing: 0%;
 }
 
-.headling__text-purple {
+.headling__text_purple {
   color: rgb(228, 122, 213);
   margin-top: 90px;
 }
 
-.headling__text-big{
+.headling__text_big{
   font-size: 40px;
   
  
@@ -29,7 +29,7 @@
 
 
 
-.headlibg-icons {
+.headling__icons{
   display: flex;
   gap: 24px;
   margin-block-end: 50px;
@@ -77,13 +77,13 @@
   background-color: rgb(46, 45, 61);
 }
 
-.headling__textFirst {
+.headling__text_first {
   font-size: 22px;
   font-weight: bold;
   margin: 10px 0;
 }
 
-.headling__publication-style {
+.headling__publicationStyle {
   background: none;
   color: var(--color-text);
   box-sizing: border-box;
@@ -95,7 +95,7 @@ height: 54px;
   font-size: 15px;
 }
 
-.headling__publication-style {
+.headling__publicationStyle {
   display: block; /* Делаем кнопку блочным элементом */
   margin-left: 60%;/* Автоматический отступ слева и справа делает элемент по центру */
 }
@@ -143,16 +143,16 @@ height: 54px;
     gap: 5px;
 }
 
-.headling__textBig{
+.headling__text_big{
     margin-block-end: 30px;
 }
 
-.headling__textSmall{
+.headling__text_small{
     margin-block-end: 20px;
 }
 
 @media (max-width: 180px) {
-    .headling__textBig {
+    .headling__text_big {
         margin-block-end: 10px; /* Устанавливаем минимальный отступ между абзацами */
     }
 }

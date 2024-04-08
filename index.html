@@ -20,19 +20,20 @@
       <a href="#"> <img class="header__logo" src="/img/logo.svg" alt=""></a>
       <nav>
         <ul class="header__menu menu">
-          <li class="menu__items menu__itemsActive"><a href="#"> Курсы</a></li>
-          <li class="menu__items menu__itemsActive open__popUp"><a href="#"> О Школе</a></li>
-          <li class="menu__items menu__itemsActive"><a href="#">Блок</a></li>
-          <li class="menu__items menu__items-gray menu__itemsActive"><a href="#">База знаний</a></li>
+          <li class="menu__items menu__items_active"><a href="#"> Курсы</a></li>
+          <li class="menu__items menu__items_active open__popUp"><a href="#"> О Школе</a></li>
+          <li class="menu__items menu__items_active"><a href="#">Блок</a></li>
+          <li class="menu__items menu__items_gray menu__items_active"><a href="#">База знаний</a></li>
         </ul>
       </nav>
       <a class="header__login" href="#" aria-label="Вход в личный кабинет">
         <div>
           <img src="/img/user.svg" alt="">
-          <div class="header__login">Вход</div>
+          <div>Вход</div>
+
       </a>
       <button class="header__buttun">
-        <img src="img/menu.svg" alt="мобильное меню" aria-expanded="false" aria-haspopup="true">
+        <img class='header__img' src="img/menu.svg" alt="мобильное меню" aria-expanded="false" aria-haspopup="true">
       </button>
 
     </div>
@@ -174,9 +175,9 @@
 
   <section class="opinion">
     <div class="opinion__block">
-      <div class="opinion__title  opinion__block__text--purple">О школе</div>
-      <div class="opinion__title  opinion__block__text--big">Нам доверяют</div>
-      <div class='opinion__title  opinion__block__text--small opinion__block__text--large'>Основатель школы и автор
+      <div class="opinion__title  opinion__title_purple">О школе</div>
+      <div class="opinion__title  opinion__title_big">Нам доверяют</div>
+      <div class='opinion__title  opinion__title_small opinion__title_large'>Основатель школы и автор
         Антон Ларичев занимается
         разработкой уже более 13
         лет <br> и прошёл путь от разработчика до CTO. В
@@ -185,22 +186,22 @@
       </div>
 
       <div class="opinion__statistics">
-        <div class='opinion__statistics-block'>
-          <div class='opinion__statistic-number opinion__statistic-number--gradient'>15000 </div>
-          <div class='opinion__statistic-description'>учеников по всему
+        <div class='opinion__statisticBlock'>
+          <div class='opinion__number opinion__number_gradient'>15000 </div>
+          <div class='opinion__description'>учеников по всему
             миру
 
           </div>
         </div>
-        <div class='opinion__statistics-block'>
-          <div class='opinion__statistic-number opinion__statistic-number--gradient'>30дней</div>
-          <div class='opinion__statistic-description'>гарантия возврата
+        <div class='opinion__statisticBlock'>
+          <div class='opinion__number opinion__number_gradient'>30дней</div>
+          <div class='opinion__description'>гарантия возврата
             денег
           </div>
         </div>
-        <div class='opinion__statistics-block'>
-          <div class='opinion__statistic-number opinion__statistic-number--gradient'>90%</div>
-          <div class='opinion__statistic-description'>студентов рекомендуют
+        <div class='opinion__statisticBlock'>
+          <div class='opinion__number opinion__number_gradient'>90%</div>
+          <div class='opinion__description'>студентов рекомендуют
             курсы
           </div>
         </div>
@@ -304,14 +305,15 @@
   <section>
     <div class="headling">
 
-      <div class="headling__text headling__textPurple">Блог и социальные сети</div>
-      <div class="headling__text headling__textBig">Полезные материалы</div>
-      <div class="headling__text headling__textSmall">Каждую неделю мы публикуем новости, обновления, а так же
+      <div class="headling__text headling__text_purple">Блог и социальные сети</div>
+      <div class="headling__text headling__text_big">Полезные материалы</div>
+      <div class="headling__text headling__text_small">Каждую неделю мы публикуем новости, обновления, а так же
         дополнительные полезные <br> материалы в социальных сетях:</div>
 
-      <div class="headlibg-icons">
-        <a href="#" class="footer__icon"> <img src="img/tg.svg" alt="Telegram"></a>
-        <a href="#" class="footer__icon"> <img src="img/youtube.svg" alt="Youtub"></a>
+
+      <div class="headling__icons">
+        <a href="#" class="footer__icon"> <img class="footer__icoImage" src="img/tg.svg" alt="Telegram"></a>
+        <a href="#" class="footer__icon"> <img class="footer__icoImage" src="img/youtube.svg" alt="Youtub"></a>
       </div>
 
       <div class="headling__articles">
@@ -321,7 +323,7 @@
             <span class="headling__status"><img src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
           </div>
           <div class="headling__text">
-            <div class="headling__textFirst"> Критика в работе – ваш друг, но не всегда</div>
+            <div class="headling__text_first"> Критика в работе – ваш друг, но не всегда</div>
             Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в
             штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
             готов
@@ -340,7 +342,7 @@
             <span class="headling__status"><img src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
           </div>
           <div class="headling__text">
-            <div class="headling__textFirst"> Критика в работе – ваш друг, но не всегда</div>
+            <div class="headling__text_first"> Критика в работе – ваш друг, но не всегда</div>
             Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в
             штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
             готов
@@ -359,7 +361,7 @@
             <span class="headling__status"><img src="img/eye.svg" alt="просмотров"> 2 584 просмотра</span>
           </div>
           <div class="headling__text">
-            <div class="headling__textFirst"> Критика в работе – ваш друг, но не всегда</div>
+            <div class="headling__text_first"> Критика в работе – ваш друг, но не всегда</div>
             Когда делаешь код ревью иногда встречаешь с тем, что даешь конструктивную критику и она воспринимается в
             штыки, словно это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
             готов
@@ -372,7 +374,7 @@
       </div>
 
 
-      <div class="headling__publication"></div><button class="headling__publication-style">Все публикации</button>
+      <div class="headling__publication"></div><button class="headling__publicationStyle">Все публикации</button>
 
   </section>
 
@@ -383,37 +385,38 @@
           <div><img class="footer__logo" src="/img/logo.svg" alt="Purple School"></div>
         </a>
         <div class="footer__socialIcons">
-          <a href="#" class="footer__icon"> <img src="img/tg.svg" alt="Telegram"></a>
-          <a href="#" class="footer__icon"> <img src="img/youtube.svg" alt="Youtub"></a>
+          <a href="#" class="footer__icon"> <img class="footer__icon_link" src="img/tg.svg" alt="Telegram"></a>
+          <a href="#" class="footer__icon"> <img class="footer__icon_link" src="img/youtube.svg" alt="Youtub"></a>
         </div>
       </div>
       <div class="footer__menu">
         <nav>
-          <div class="footer__menuHeader">Меню
+          <div class="footer__header">Меню
             <ul class="footer__small">
-              <li class="footer__item"><a href="#"> Курсы</a></li>
-              <li class="footer__item"><a href="#"> О Школе</a></li>
-              <li class="footer__item"><a href="#">Блок</a></li>
-              <li class="footer__item"><a href="#">База знаний</a></li>
+              <li class="footer__item"><a class="footer__item_link" href="#"> Курсы</a></li>
+              <li class="footer__item"><a class="footer__item_link" href="#"> О Школе</a></li>
+              <li class="footer__item"><a class="footer__item_link" href="#">Блок</a></li>
+              <li class="footer__item"><a class="footer__item_link" href="#">База знаний</a></li>
           </div>
           </ul>
         </nav>
         <div>
 
-          <div class="footer__menuHeader">Документы
+          <div class="footer__header">Документы
             <ul class="footer__small">
-              <li class="footer__item"><a href="#"> Договор Оферта</a></li>
-              <li class="footer__item"><a href="#"> Политика конфиденциальности</a></li>
+              <li class="footer__item"><a class="footer__item_link" href="#"> Договор Оферта</a></li>
+              <li class="footer__item"><a class="footer__item_link" href="#"> Политика конфиденциальности</a></li>
             </ul>
           </div>
         </div>
         <div>
-          <div class="footer__menuHeader">Реквезиты
+          <div class="footer__header">Реквезиты
             <ul class="footer__small">
 
               <li class="footer__item"> ИП Ларичев Антон Андреевич</li>
               <li class="footer__item"> ИНН 773373765379</li>
-              <li class="footer__item"><a href="contact@purpleschool.ua">contact@purpleschool.ua</a></li>
+              <li class="footer__item"><a class="footer__item_link"
+                  href="contact@purpleschool.ua">contact@purpleschool.ua</a></li>
             </ul>
           </div>
         </div>
