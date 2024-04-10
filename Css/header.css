@@ -54,8 +54,27 @@ display: block;
     }
 
     .header__wrapper{
-        padding: 30px 24px;
+        padding: 30px 24px 0px;
+    margin: 10px;
+    gap: 45px;
     }
+
+
+    .section__buttons{
+        width: 163px;
+        height: 46px;
+    }
+    
+    .button {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  display: flex;
+    align-items: center;
+}
 }
 
 
@@ -106,3 +125,13 @@ display: block;
 
 
 
+@media(max-width: 360px){
+    .header__logo{
+    
+    
+    }
+   .header{
+    display: flex;
+    justify-content: space-around;
+   }
+}

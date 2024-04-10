@@ -85,3 +85,65 @@
     
     }
 }
+
+
+@media(max-width: 480px){
+ .section__hero {
+    margin: 0 auto;
+    
+    line-height: 120%;
+    color: var(--color-text);
+    width: 100%;
+    font-size: 19px;
+    font-weight: 10px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis (...) for truncated text */
+  }
+
+  .header__wrapper {
+    padding: 0px 24px;
+    margin: auto;
+  }
+
+.footer__wrapper{
+    margin: 30px
+}
+
+.footer__socialIcons{
+   margin: 0px
+}
+
+
+}
+;;
+  .button {
+   width: 125px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .section__buttons {
+  display: flex;
+  gap: 16px;
+}
+
+ .section__image{
+    width: 315px;
+ }
+
+ .section__hero_content{
+    width: 315px;
+    font-weight: 80%;
+
+
+}
+  
+@media(max-width: 360px){
+.footer__socialIcons{
+   margin-left: 0px
+}
+}

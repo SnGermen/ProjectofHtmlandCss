@@ -156,3 +156,26 @@ height: 54px;
         margin-block-end: 10px; /* Устанавливаем минимальный отступ между абзацами */
     }
 }
+
+@media(max-width: 480px){
+  .headling__articles {
+    margin: auto;
+    padding: 20px;
+    width: auto;
+    margin-block-end: 20px;
+  }
+.headling__text_big {
+  line-height: 47px;
+}
+
+.headling{
+  padding: 10px 30px;
+}
+
+.headling__text_purple{
+margin-top: 40px;
+}
+.headling__publicationStyle{
+  margin: auto;
+}
+}

@@ -19,7 +19,7 @@
 .footer__socialIcons{
   display: flex;
   gap: 24px;
-  margin-left: 850px;
+  margin: 0px 850px;
   align-items: center;
 }
 

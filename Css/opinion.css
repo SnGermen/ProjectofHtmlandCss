@@ -10,6 +10,14 @@
   padding: 100px 146px 40px; 
 }
 
+@media(max-width: 480px){
+ .opinion__block {
+    padding: 100px 25px 40px;
+    font-size: 15px;
+  }
+  }
+
+
 .opinion__title_purple{
 color: rgb(228, 122, 213);
 font-size: 16px;
@@ -23,6 +31,13 @@ font-weight: 400;
 line-height: 120%;
 margin-top: 10px;
 }
+
+@media(max-width: 480px){
+.opinion__title_big{
+  font-size: 35px;
+}
+  }
+
 
 .opinion__title_small {
 margin: 8px 0px;
@@ -54,6 +69,19 @@ line-height: 1.5
   gap: 15px;
 }
 
+@media(max-width: 480px){
+.opinion__statistics{
+    display: flex;
+    flex-direction: column; /* Расположение блоков по вертикали */
+    align-items: center; 
+}
+.opinion__statisticBlock{
+  width: 310px;
+    height: 100px;
+
+    margin: 18px 0px 4px;
+}
+}
 .opinion__number_gradient {
  
  
