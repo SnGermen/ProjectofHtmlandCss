@@ -55,7 +55,7 @@ display: block;
 
     .header__wrapper{
         padding: 30px 24px 0px;
-    margin: 10px;
+    margin:0px 15px;
     gap: 45px;
     }
 
@@ -63,6 +63,7 @@ display: block;
     .section__buttons{
         width: 163px;
         height: 46px;
+        margin: 0px;
     }
     
     .button {

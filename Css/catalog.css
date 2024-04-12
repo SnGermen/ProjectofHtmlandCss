@@ -56,9 +56,8 @@ margin-top: 0px;
     display: flex;
     justify-content: flex-start;
     gap: 20px;
-    padding: 0; /* добавлено */
-    margin: 25px; /* добавлено */
-    margin-top: 0px;
+    padding: 0px; /* добавлено */
+    margin: 0px
 }
 
 .catalog__items a{
@@ -87,9 +86,14 @@ margin-top: 20px;
 
 .catalog{
   margin-top: -30px;
+  padding: 15px;
 }
 
-
+.catalog__menu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
 }
 .catalog__items a:hover{
@@ -208,6 +212,7 @@ align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   height: min-content;
+  margin: 0px -22px;
 }
 
 @media(max-width: 160px){

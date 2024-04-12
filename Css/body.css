@@ -24,7 +24,8 @@
 .section__title{
     margin:0;
     font-weight: 700;
-    font-size: 54px;
+    font-size: 48px;
+    width: 100%;
     line-height: 100%;
     color: var(--color-text);
 
@@ -108,20 +109,16 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .section__title {
     width: 100%;
     height: 65px;
-    margin-right: 45px;
-  }
+    margin: 6px 41px 6px -85px;  }
 
-.section__image {
-    width: 360px;
-    margin-right: 38px;
-  }
+
 
   .section__title_gradient{
-    margin-left: 15px;;
+    margin-left: 0px;
   }
 
   .section__buttons {

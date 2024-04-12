@@ -131,12 +131,15 @@
   gap: 16px;
 }
 
- .section__image{
-    width: 315px;
- }
+
+.section__image {
+   width: 100%;
+  }
+
+
 
  .section__hero_content{
-    width: 315px;
+    width: 50%;
     font-weight: 80%;
 
 
