@@ -116,14 +116,14 @@
 
 
 }
-;;
+
   .button {
-   width: 125px;
-    height: 40px;
+ width: 150px;
+  height: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .section__buttons {
@@ -133,11 +133,14 @@
 
 
 .section__image {
-   width: 100%;
+   width: 40%;
   }
 
+  .section__image{
+        height: auto;    
+    }
 
-
+    
  .section__hero_content{
     width: 50%;
     font-weight: 80%;
@@ -145,8 +148,13 @@
 
 }
   
-@media(max-width: 360px){
-.footer__socialIcons{
-   margin-left: 0px
-}
+
+
+
+@media(max-width: 480px){
+.section__image {
+   width: 100%;
+  }
+
+
 }
