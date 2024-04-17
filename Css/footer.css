@@ -7,7 +7,7 @@
 .footer__wrapper{
     max-width: var(--layout-width);
     margin:  70px 146px 40px; 
-     
+     width: 100%;
     margin-bottom: 36px;
 }
 
@@ -133,7 +133,8 @@
 
 
 .section__image {
-   width: 100%;
+   width: 48%;
+  margin-right: -42px;
   }
 
 
