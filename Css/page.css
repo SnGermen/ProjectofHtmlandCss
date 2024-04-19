@@ -179,3 +179,28 @@ margin-top: 40px;
   margin: auto;
 }
 }
+
+
+@media(max-width: 800px){
+.headling__articles{
+  
+    margin: auto;
+    padding: 20px;
+    width: auto;
+    margin-block-end: 20px;
+  
+}
+
+  .headling__button {
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+}
