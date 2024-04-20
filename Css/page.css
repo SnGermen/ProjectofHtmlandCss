@@ -2,7 +2,7 @@
 .headling {
   max-width: var(--layout-width);
   
- padding: 70px 146px 100px;
+ padding: 70px 0px 100px;
  
 }
 
@@ -18,11 +18,12 @@
 .headling__text_purple {
   color: rgb(228, 122, 213);
   margin-top: 90px;
+      padding: 0px 24px 0px;
 }
 
 .headling__text_big{
   font-size: 40px;
-  
+  padding: 0px 24px 0px;
  
 
 }
@@ -34,6 +35,7 @@
   gap: 24px;
   margin-block-end: 50px;
   margin-top: 35px;
+      padding: 0px 24px 0px;
 }
 
 /* articles */
@@ -45,9 +47,9 @@
   background: rgb(30, 31, 41);
   padding: 32px 40px 15px 32px;
 
-  width: 1218px;
+  width: 95%;
   height: auto;
-  margin: 30px 0;
+  margin: 30px 24px;
 }
 
 .headling__content {
@@ -97,7 +99,7 @@ height: 54px;
 
 .headling__publicationStyle {
   display: block; /* Делаем кнопку блочным элементом */
-  margin-left: 60%;/* Автоматический отступ слева и справа делает элемент по центру */
+  margin: 0 auto;/* Автоматический отступ слева и справа делает элемент по центру */
 }
 .headling__publication {
   padding: 16px 1px 16px 32px;
@@ -149,6 +151,7 @@ height: 54px;
 
 .headling__text_small{
     margin-block-end: 20px;
+        padding: 0px 24px 0px;
 }
 
 @media (max-width: 180px) {
@@ -205,6 +208,3 @@ margin-top: 40px;
 
 }
 
-.headling{
-  display: none;
-}

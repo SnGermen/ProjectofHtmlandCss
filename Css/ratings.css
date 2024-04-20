@@ -3,7 +3,7 @@
   padding: 35px 30px 90px;
   /* Gray dark */
 background: rgb(30, 31, 41);
-height: 320px;
+height: auto;
 }
 .ratings__container {
   max-width: 1220px;
