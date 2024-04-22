@@ -217,6 +217,10 @@ align-items: center;
   .catalog__container{
     margin: 0 auto;
   }
+
+  .catalog{
+  display: none;
 }
 
 
+}

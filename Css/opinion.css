@@ -114,8 +114,13 @@ margin-top: 16px;
 
 
 
+
 @media(max-width: 868px){
 .opinion__description{
   font-size: 10px;
 }
 }
+.opinion{
+  display: none;
+}
+
