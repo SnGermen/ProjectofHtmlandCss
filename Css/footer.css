@@ -184,5 +184,13 @@ width: 100%;
 }
 }
 
+/* 
+@media(max-width: 477px){
+.section__hero_content{
+margin: 0 auto;
+font-size: 30px;
 
 
+
+}
+} */
