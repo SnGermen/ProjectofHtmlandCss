@@ -30,7 +30,7 @@ font-size: 46px;
 font-weight: 400;
 line-height: 120%;
 margin-top: 10px;
-      padding: 0px 24px 0px;
+padding: 0px 21px 0px;
 
 }
 
@@ -48,7 +48,7 @@ line-height: 1.5
 
 .opinion__title_large{
   margin-top: 32px;
-      padding: 0px 24px 0px;
+  padding: 0px 24px 0px;
 }
 
 .opinion__statisticBlock{
@@ -70,7 +70,7 @@ line-height: 1.5
   display: flex;
   justify-content: space-between;
   gap: 15px;
-      padding: 0px 24px 0px;
+  padding: 0px 24px 0px;
 }
 
 @media(max-width: 480px){
@@ -119,8 +119,11 @@ margin-top: 16px;
 .opinion__description{
   font-size: 10px;
 }
-}
-.opinion{
-  display: none;
+
 }
 
+ .opinion__block {
+     max-width: 1220px;
+     margin: 0 auto;
+
+  }

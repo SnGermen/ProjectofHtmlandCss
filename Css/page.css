@@ -3,7 +3,7 @@
   max-width: var(--layout-width);
   
  padding: 70px 0px 100px;
- 
+ margin:  0 auto;
 }
 
 
@@ -186,8 +186,7 @@ margin-top: 40px;
 
 @media(max-width: 800px){
 .headling__articles{
-  
-    margin: auto;
+
     padding: 20px;
     width: auto;
     margin-block-end: 20px;

@@ -1,6 +1,6 @@
 .ratings {
   width: 100%;
-  padding: 35px 30px 90px;
+  padding: 35px 24px 90px;
   /* Gray dark */
 background: rgb(30, 31, 41);
 height: auto;
@@ -67,3 +67,12 @@ height: auto;
 
   height: auto;
 }}
+
+@media(min-width: 1222px){
+  .ratings__container{
+          padding: 0px 24px 0px;
+
+  }
+
+}
+

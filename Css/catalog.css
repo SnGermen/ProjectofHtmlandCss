@@ -211,7 +211,7 @@ align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   height: min-content;
-      padding: 0px 24px 0px
+  
 }
 
 @media(max-width: 160px){
