@@ -2,7 +2,7 @@
 .headling {
   max-width: var(--layout-width);
   
- padding: 70px 0px 100px;
+ padding: 70px 15px 100px;
  margin:  0 auto;
 }
 
@@ -13,17 +13,17 @@
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
+      padding: 0px 24px 0px;
 }
 
 .headling__text_purple {
   color: rgb(228, 122, 213);
   margin-top: 90px;
-      padding: 0px 24px 0px;
 }
 
 .headling__text_big{
   font-size: 40px;
-  padding: 0px 24px 0px;
+
  
 
 }
@@ -35,7 +35,7 @@
   gap: 24px;
   margin-block-end: 50px;
   margin-top: 35px;
-      padding: 0px 24px 0px;
+  padding: 0px 24px 0px;
 }
 
 /* articles */
@@ -151,7 +151,6 @@ height: 54px;
 
 .headling__text_small{
     margin-block-end: 20px;
-        padding: 0px 24px 0px;
 }
 
 @media (max-width: 180px) {
@@ -171,9 +170,6 @@ height: 54px;
   line-height: 47px;
 }
 
-.headling{
-  padding: 10px 30px;
-}
 
 .headling__text_purple{
 margin-top: 40px;
