@@ -9,3 +9,4 @@
     popUp.style.display = 'none'
   }
 })()
+//Solo
